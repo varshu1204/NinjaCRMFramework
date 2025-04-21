@@ -46,9 +46,8 @@ public class HomePage {
 	@FindBy(linkText="Invoice")
 	private WebElement invoice;
 	
-	@FindBy(linkText="Admin Console")
-	private WebElement adminconsole;
-	
+
+
 	@FindBy(xpath="//span[text()='Create Campaign']")
 	private WebElement createcampaign;
 	
@@ -94,9 +93,8 @@ public class HomePage {
 		return invoice;
 	}
 
-	public WebElement getAdminconsole() {
-		return adminconsole;
-	}
+
+
 
 	public WebElement getCreatecampaign() {
 		return createcampaign;
